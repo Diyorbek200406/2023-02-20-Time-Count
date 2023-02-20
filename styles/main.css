@@ -65,14 +65,14 @@ input {
 .icon {
   position: absolute;
   top: 102px;
-  left: 840px;
+  left: 58%;
   cursor: pointer;
   z-index: 3;
 }
 .icon1 {
   position: absolute;
   top: 102px;
-  left: 840px;
+  left: 58%;
   cursor: pointer;
   z-index: 2;
 }
