@@ -1,0 +1,110 @@
+body {
+  background-color: blue;
+}
+.time {
+  width: 100vw;
+  height: 20vh;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.hour {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  text-align: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.minut {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  text-align: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.second {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  text-align: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+h1,
+h2,
+h3 {
+  font-size: 50px;
+  color: red;
+}
+form {
+  height: 20vh;
+  background-color: green;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+}
+label {
+  font-size: 30px;
+}
+input {
+  width: 300px;
+}
+.icon {
+  position: absolute;
+  top: 102px;
+  left: 840px;
+  cursor: pointer;
+  z-index: 3;
+}
+.icon1 {
+  position: absolute;
+  top: 102px;
+  left: 840px;
+  cursor: pointer;
+  z-index: 2;
+}
+.para {
+  background-color: blue;
+  height: 20vh;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: black;
+}
+.Diyorbek {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h6 {
+  font-size: 70px;
+  color: black;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+p {
+  font-size: 80px;
+  color: black;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
